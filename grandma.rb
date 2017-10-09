@@ -18,12 +18,12 @@ def speak_to_grandma(phrase)
     puts "I LOVE YOU TOO PUMPKIN!"
   end
 
-  elsif phrase.upcase == phrase
+elsif phrase == phrase.upcase
     puts "NO, NOT SINCE 1938!"
   end
 
   else
     puts "HUH?! SPEAK UP, SONNY!"
-  end  
+  end
 
 end
